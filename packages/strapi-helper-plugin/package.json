@@ -22,7 +22,9 @@
   "scripts": {
     "lint": "cross-env IS_HELPER=true ./node_modules/eslint/bin/eslint.js --ignore-path .gitignore --config ./lib/internals/eslint/eslint-config.js .",
     "prettier": "prettier --single-quote --trailing-comma es5 --write \"{lib,__{tests,mocks}__}/**/*.js\"",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "pre-commit": [
     "lint:admin"
@@ -108,6 +110,8 @@
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-middleware": "^1.12.0",
     "webpack-hot-middleware": "^2.18.2",
-    "whatwg-fetch": "^2.0.3"
-  }
+    "whatwg-fetch": "^2.0.3",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
