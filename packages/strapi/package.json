@@ -62,7 +62,8 @@
     "strapi-generate-plugin": "3.0.0-alpha.9.2",
     "strapi-generate-policy": "3.0.0-alpha.9.2",
     "strapi-generate-service": "3.0.0-alpha.9.2",
-    "strapi-utils": "3.0.0-alpha.9.2"
+    "strapi-utils": "3.0.0-alpha.9.2",
+    "snyk": "^1.189.0"
   },
   "author": {
     "email": "hi@strapi.io",
@@ -88,5 +89,10 @@
     "npm": ">= 5.3.0"
   },
   "preferGlobal": true,
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

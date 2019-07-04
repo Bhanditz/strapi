@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - async > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate-policy > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - cheerio > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate-plugin > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate-new > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate-api > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-utils > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate-admin > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate-service > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate > strapi-utils > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate-new > inquirer > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-utils > knex > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate > async > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate-new > strapi-utils > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate-new > strapi-utils > knex > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
+    - strapi-generate > strapi-utils > knex > lodash:
+        patched: '2019-07-04T02:40:09.838Z'
