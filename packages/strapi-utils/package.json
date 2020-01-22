@@ -17,7 +17,7 @@
   "dependencies": {
     "commander": "^2.11.0",
     "joi-json": "^2.0.1",
-    "knex": "^0.13.0",
+    "knex": "^0.14.3",
     "lodash": "^4.17.4",
     "pino": "^4.7.1"
   },
