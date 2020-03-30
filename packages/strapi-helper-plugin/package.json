@@ -72,7 +72,7 @@
     "json-loader": "^0.5.7",
     "lodash": "^4.17.4",
     "lodash-webpack-plugin": "^0.11.4",
-    "mocha": "3.1.2",
+    "mocha": "6.0.0",
     "moment": "^2.16.0",
     "node-sass": "^4.5.3",
     "null-loader": "^0.1.1",
