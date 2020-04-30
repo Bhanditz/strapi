@@ -17,7 +17,8 @@
     "fs-extra": "^4.0.0",
     "lodash": "^4.17.4",
     "reportback": "^2.0.1",
-    "strapi-utils": "3.0.0-alpha.9.2"
+    "strapi-utils": "3.0.0-alpha.9.2",
+    "snyk": "^1.316.1"
   },
   "author": {
     "name": "Strapi team",
@@ -42,5 +43,10 @@
     "node": ">= 8.0.0",
     "npm": ">= 5.3.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
