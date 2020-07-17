@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "grant-koa": "^3.8.1",
+    "grant-koa": "^4.0.0",
     "jsonwebtoken": "^8.1.0",
     "koa": "^2.1.0",
     "purest": "^2.0.1",
