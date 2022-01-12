@@ -23,7 +23,7 @@
     "setup": "node ./scripts/setup.js"
   },
   "dependencies": {
-    "shelljs": "^0.7.8"
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {
     "sanitize.css": "^4.1.0",
