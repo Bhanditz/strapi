@@ -30,7 +30,7 @@
     "strapi": "./bin/strapi.js"
   },
   "dependencies": {
-    "async": "^2.1.2",
+    "async": "^3.2.2",
     "boom": "^5.2.0",
     "cheerio": "^1.0.0-rc.2",
     "delegates": "^1.0.0",
