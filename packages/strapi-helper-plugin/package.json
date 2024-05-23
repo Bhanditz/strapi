@@ -28,7 +28,7 @@
     "lint:admin"
   ],
   "dependencies": {
-    "add-asset-html-webpack-plugin": "^2.1.2",
+    "add-asset-html-webpack-plugin": "^5.0.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
@@ -76,7 +76,7 @@
     "moment": "^2.16.0",
     "node-sass": "^4.5.3",
     "null-loader": "^0.1.1",
-    "plop": "^1.8.0",
+    "plop": "^3.0.0",
     "postcss-cssnext": "^2.11.0",
     "postcss-focus": "^2.0.0",
     "postcss-loader": "^2.0.6",
